@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,16 +34,19 @@
 <body class="font-manrope">
     <!-- header section start  -->
     <header class="container mx-auto">
-        <div class="hero">
-                <div class="hero-content flex-col lg:flex-row">
+        <div class="my-20">
+                <div class="flex justify-between items-center flex-col lg:flex-row">
                     <div>
                         <h1 class="text-7xl font-extrabold">It's good <br>
                         tea time at the <br>Tea Tea-house</h1>
                         <p class="py-6">Provident Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-                        <button class="btn btn-primary">Explore More</button>
+                        <button class="btn btn-outline btn-warning">
+                            Explore More
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </button>
                     </div>
                     <div>
-                        <img src="./images/banner.png" class="max-w-sm" />
+                        <img src="./images/banner.png" />
                         <div class="-mt-16 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60">
                             <i class="fa-solid fa-star text-3xl text-amber-400"></i>
                          <div>
@@ -131,7 +134,7 @@
               <div class="space-y-5">
                 <h2 class="text-5xl font-extrabold text-black">Meet Our Super <br> client</h2>
                 <p class="text-black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-                <button class="btn btn-warning">Show All</button>
+                <button class="btn btn-outline btn-warning">Show All</button>
               </div>
             </div>
             <!-- review container  -->
@@ -175,8 +178,51 @@
     </main>
     <!-- main section end  -->
     <!-- footer section start  -->
-    <footer>
-
+    <footer class="px-48 py-10 bg-blue-200 text-base-content">
+        <div class="flex justify-between my-24 ">
+            <img src="./images/cup.png" alt="">
+            <p>
+               <span>Ready to Get Started?</span>
+                <button class="btn btn-warning">Get Started</button>
+            </p>
+        </div>
+           <div class="footer p-10 bg-blue-200 text-base-content">
+             <nav>
+              <header class="footer-title">Services</header> 
+              <a class="link link-hover">Branding</a>
+              <a class="link link-hover">Design</a>
+              <a class="link link-hover">Marketing</a>
+              <a class="link link-hover">Advertisement</a>
+            </nav> 
+            <nav>
+              <header class="footer-title">Company</header> 
+              <a class="link link-hover">About us</a>
+              <a class="link link-hover">Contact</a>
+              <a class="link link-hover">Jobs</a>
+              <a class="link link-hover">Press kit</a>
+            </nav> 
+            <nav>
+              <header class="footer-title">Legal</header> 
+              <a class="link link-hover">Terms of use</a>
+              <a class="link link-hover">Privacy policy</a>
+              <a class="link link-hover">Cookie policy</a>
+            </nav> 
+            <form>
+              <header class="footer-title">Newsletter</header> 
+              <fieldset class="form-control w-80">
+                <label class="label">
+                  <span class="label-text">Enter your email address</span>
+                </label> 
+                <div class="join">
+                  <input type="text" class="p-4 bg-transparent border-b-2 border-black outline-none" /> 
+                  <button class=" py-8 btn btn-warning rounded-full"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+              </fieldset>
+            </form>
+           </div>
+            <aside class="mt-8 text-center">
+                <p>Copyright © 2024 - All right reserved by Tea House Industries Ltd</p>
+            </aside>
     </footer>
     <!-- footer section end  -->
 </body>
