@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;600&display=swap" rel="stylesheet">
+    <!-- font awesome kit  -->
+    <script src="https://kit.fontawesome.com/1ca4d08153.js" crossorigin="anonymous"></script>
     <!-- tailwind custom color  -->
     <script>
         tailwind.config = {
@@ -31,8 +33,27 @@
 </head>
 <body class="font-manrope">
     <!-- header section start  -->
-    <header>
-
+    <header class="container mx-auto">
+        <div class="hero">
+                <div class="hero-content flex-col lg:flex-row">
+                    <div>
+                        <h1 class="text-7xl font-extrabold">It's good <br>
+                        tea time at the <br>Tea Tea-house</h1>
+                        <p class="py-6">Provident Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                        <button class="btn btn-primary">Explore More</button>
+                    </div>
+                    <div>
+                        <img src="./images/banner.png" class="max-w-sm" />
+                        <div class="-mt-16 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60">
+                            <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                         <div>
+                            <h3 class="text-3xl">5.00</h3>
+                            <p>Trust pilot Rating</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <!-- header section end  -->
     <!-- main section start  -->
